@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- All elements within the html tag are part of the html document -->
+<html>
+<!-- head element contains the page's title, other information about the page and other resources such as fonts, designs, etc. Contents of the head tag is not usually shown in the page. -->
+<head>
+	<meta charset="utf-8">
+	<!-- meta elements usally add other information about the page -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <title> sets the title of the tab shown in the browser. -->
+	<title>HTML Introduction</title>
+</head>
+<!-- body element contains the page's actual content. Most elements added here are shown in the actual page. -->
+<body>
+	<!-- Creates a heading text -->
+	<h1 id="top">Zuitt Coding Bootcamp</h1>
+	<a href="#bottom">Link To Bottom</a>
+	<!-- Creates a smaller heading text -->
+	<h2>John Doe</h2>
+	<!-- Creates a paragraph text -->
+	<!-- br creates a line break in between text -->
+	<p>Welcome to Zuitt!<br>Let's enumarate all the things that we will study in this Free Coding Bootcamp.</p>
+
+	<h3>Free Coding Bootcamp!</h3>
+	<!-- Creates ordered list with number indicators by default -->
+	<ol>
+		<!-- Creates a list item -->
+		<li>Git Basics</li>
+		<li>HTML Introduction</li>
+		<li>CSS Introduction</li>
+	</ol>
+
+	<div>
+		<h4>Relative Links</h4>
+		<!-- ./ is used to link to another html page within the same folder -->
+		<!-- The address remains the same as in the links page because attributes and links pages are both in the same folder -->
+		<a href="./attributes.html">Attributes Page</a>
+		<a href="./links.html">Links Page</a>
+		<a href="./index.html">Home Page</a>
+	</div>
+
+	<div id="images">
+		<br>
+		<img src="./picture1.png">
+		<br>
+		<img src="./picture2.png">
+		<br>
+		<img src="./picture3.jpg">
+	</div>
+	<br>
+	<div id="bottom">
+		<h4>Relative Links Within Page</h4>
+		<!-- You can also link within a page using the element's id as value of href as:
+			<a href="#idValue">LinkText</a>
+		-->
+		<a href="#top">Return to Top</a>
+	</div>
+</body>
+</html>
