@@ -1,0 +1,103 @@
+/*Universal Selector*/
+/*The "*" symbol is a universal selector and used to target all elements. */
+* {
+	font-family: "Courier New", monospace;
+	/*CSS Reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Type Selector*/
+h1 {
+	font-family: "Tahoma", sans-serif;
+}
+
+body {
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+section {
+	text-align: center;
+}
+
+nav {
+	background-color: white;
+	text-align: center;
+	/*padding is a property that allows us to add a space within an element*/
+	padding: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Class Selector*/
+/*To use class selector, add a period before the name/value of target class*/
+/*.className {}*/
+/*The default font size is 16px. px stands for pixels.*/
+.nav-link {
+	font-size: 18px;
+}
+
+.title {
+	/*color: green;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.module-card {
+	height: 350px;
+	width: 800px;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: white;
+	/*In contrast to padding, margins are spaces outside of the element*/
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Without border-box*/
+/*Border and padding as added on top of width*/
+
+/*With border-box*/
+/*border and padding is included in the total width and height*/
+
+.module-image {
+	height: 200px;
+	width: 200px;
+}
+
+/* ID Selector */
+/* To use an id selector, add a hash or pound sign before the name of target ID */
+/* #idName {} */
+#hello {
+	color: black;
+	/*rem is a measurement called root element and it references the font-size of the root element, html. The default root element (html) font-size is 16px. */
+	font-size: 2rem;
+}
+
+#logo {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#modules {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#moduleHeader {
+	margin-top: 30px;
+}
